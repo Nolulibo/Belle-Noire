@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css"/>
+    <!--link rel="stylesheet" href="style.css"-->
+</head>
+<body>
+     <section id="header" style="position: sticky; top: 0; z-index: 1000;display: flex; justify-content: space-between; align-items: center; background-color: #ede7c7; padding: 10px 20px;">
+        <header style="background-color: #ede7c7;"><h1 style="color: #5b0202; padding-top: 20px; padding-bottom:20px;">B E L L E &nbsp; N O I R E</h1></header>
+        
+        <div>
+            <ul id="navbar" style="list-style: none; margin: 0; padding: 0; display: flex; gap: 20px;">          
+                <li><a href="index.html" style="text-decoration: none; color: black;">Home</a></li>
+                <li><a href="shop.html" style="text-decoration: none; color: black;">Shop</a></li>
+                <li><a href="about.html" style="text-decoration: none; color: black;">About</a></li>          
+                <li><a class="active" href="cart.html" style="text-decoration: none; color: #5b0202; font-weight: bold;"><i class="fa fa-shopping-bag"></i></a></li>
+                <li><a href="contact.html" style="text-decoration: none; color: black;"><i class="fa fa-phone"></i></i><a></li>
+            </ul>
+        </div>
+    </section>
+
+    
+     <section id="hero">
+        <div>
+	    <img src="images/SnakeBeauty2.png" height="500vh" width="100%" alt="">
+            <h6 style="text-align:center;">BEAUTY</h6>
+            <h3 style="text-align:center;">Her Beauty Belle&nbsp;Noire</h3>
+            <h3 style="text-align:center;">01.10.2025</h3>
+            <button style="align-items:center; margin-left: 705px;">Create an alert</button>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2 style="text-align: center; padding-top: 25px; padding-bottom: 25px; font-family: 'Bodoni Moda', serif; color: #5b0202; font-size: 35px;">Your Cart</h2>
+        </div>
+    </section>
+
+    <section id="cart">
+        <table width="100%">
+            <div>
+            <thread style="border: solid, 1px; border-left: none; border-right: none; margin-bottom: 15px; color: #e2e9e1;">
+                <tr>
+                    <td style="font-family: 'Bodoni Moda',sans-serif; margin-bottom: 20px;">Remove</td>
+                    <td style="font-family: 'Bodoni Moda',sans-serif; margin-bottom: 20px;">Image</td>
+                    <td style="font-family: 'Bodoni Moda',sans-serif; margin-bottom: 20px;">Product</td>
+                    <td style="font-family: 'Bodoni Moda',sans-serif; margin-bottom: 20px;">Price</td>
+                    <td style="font-family: 'Bodoni Moda',sans-serif; margin-bottom: 20px;">Quantity</td>
+                    <td style="font-family: 'Bodoni Moda',sans-serif; margin-bottom: 20px;">Subtotal</td>
+                </tr>
+            </thread>
+            </div>
+            <div>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle-o"></i></a></td>
+                    <td><img style="height: 20vh; width: 95px;" src="images/Dresses/Dress16.png" alt=""></td>
+                    <td>Lupita Dress</td>
+                    <td>R3500.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R3500.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle-o"></i></a></td>
+                    <td><img style="height: 20vh; width: 95px;" src="images/Shoes/Shoe2.png" alt=""></td>
+                    <td>Sahara Heels</td>
+                    <td>R1620.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R1620.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle-o"></i></a></td>
+                    <td><img style="height: 20vh; width: 95px;" src="images/Dresses/Dress21.png" alt=""></td>
+                    <td>Fatima Dress</td>
+                    <td>R1850.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R1850.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle-o"></i></a></td>
+                    <td><img style="height: 20vh; width: 95px;" src="images/Shoes/Shoe11.png" alt=""></td>
+                    <td>Cleopatra Heels</td>
+                    <td>R1880.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R1880.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle-o"></i></a></td>
+                    <td><img style="height: 20vh; width: 95px;" src="images/Handbags/Bag4.png" alt=""></td>
+                    <td>Seashell Bag</td>
+                    <td>R1020.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R1020.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle-o"></i></a></td>
+                    <td><img style="height: 20vh; width: 95px;" src="images/Handbags/Bag19.png" alt=""></td>
+                    <td>White Cresent Bag</td>
+                    <td>R1260.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R1260.00</td>
+                </tr>
+            </div>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add">
+        <div id="subtotal" style="text-align: right;">
+            <h3 style="margin-right: 11.5%;">Cart Total</h3>
+            <table style="display: inline-block; width: 18%; margin-bottom: 30px; border: 1px, solid, #e2e9e1; padding: 30px;">
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>R11,130.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>R11,130.00</strong></td>
+                </tr>
+            </table>
+            <div>
+                <button style="margin-right:8%; margin-bottom: 5px; padding-top: 5px; padding-bottom: 5px; background-color: #5b0202; color: white; font-family: montserrat, sans-serif; border: none; cursor: pointer;">Proceed to checkout</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="newsletter" style="background-color: #8b0000; padding-top: 20px; padding-bottom: 20px; display:flex; justify-content:space-between; align-items:center; padding-left:65px; padding-right:65px; margin-top:25px;">
+        <div class="newstext">
+            <h4 style="color:white; padding-left: 65px">SIGN UP FOR NEWSLETTERS</h4>
+            <p style="padding-left: 65px;">Recieve E-mail updates about our latest drops and special offers.</p>
+        </div>
+        <div class="form" style="display:flex; gap:10px;">
+                <input type="text" placeholder="Your email address"  style="padding:8px; border:none; border-radius:4px; width:200px;">
+                <button class="normal" style="padding:8px 16px; border:none; border-radius:4px; background:#200e01; color:white; font-weight:bold; cursor:pointer;">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1" style="display:flex; justify-content:space-between; align-items:flex-start; padding:40px; flex-wrap:wrap;">
+        <div class="column" style="flex:1; min-width:200px; margin:10px;">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>Cnr of Rivonia and Outspan Road, Morningside, Sandton, 2196</p>
+            <p><strong>Phone:</strong> +27 456 7890</p>
+            <p><strong>Hours:</strong> 09:00 - 17:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="column" style="flex:1; min-width:200px; margin:10px;">
+            <h4>About</h4>
+            <a href="about.html" style="display:block; text-decoration:none; color:black; margin:5px 0;">About Us</a>
+            <a href="#" style="display:block; text-decoration:none; color:black; margin:5px 0;">Delivery Information</a>
+            <a href="#" style="display:block; text-decoration:none; color:black; margin:5px 0;">Privacy Policy</a>
+            <a href="#" style="display:block; text-decoration:none; color:black; margin:5px 0;">Terms & Conditions</a>
+            <a href="contact.html" style="display:block; text-decoration:none; color:black; margin:5px 0;">Contact Us</a>
+        </div>
+
+        <div class="column" style="flex:1; min-width:200px; margin:10px;">
+            <h4>My Account</h4>
+            <a href="#" style="display:block; text-decoration:none; color:black; margin:5px 0;">Sign In</a>
+            <a href="cart.html" style="display:block; text-decoration:none; color:black; margin:5px 0;">View Cart</a>
+            <a href="#" style="display:block; text-decoration:none; color:black; margin:5px 0;">My Wishlist</a>
+            <a href="#" style="display:block; text-decoration:none; color:black; margin:5px 0;">Track My Order</a>
+            <a href="#" style="display:block; text-decoration:none; color:black; margin:5px 0;">Help</a>
+        </div>
+
+        <div class="column install" style="flex:1; min-width:200px; margin:10px;">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/pay/AppStore.png" alt="" height="90vh" width="55%">
+                <img src="images/pay/GooglePlayStore.png" alt="" height="90vh" width="55%">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/SecuredPayment.png" alt="" height="90vh" width="55%">
+        </div>
+    </footer>
+    <div class="copyright" style="text-align:center; padding:15px;">
+        <p>&copy; 2025, Belle Noire - All Rights Reserved</p>
+    </div>    
+    
+</body>
+</html>
